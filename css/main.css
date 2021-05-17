@@ -1,0 +1,54 @@
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #ccc;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: center;
+    
+}
+.container .logo{
+    
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #ddd;
+}
+.container .content{
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 10px;
+
+}
+.container .content h1 {
+    margin: 0  0  10px;
+    text-transform: uppercase;
+    color: #bbb;
+
+}
+.number{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 40px auto 0;
+    width: 50%;
+}
+.number > div{
+    height: 80px;
+    width: 80px;
+    box-shadow: 0 0 4px rgba(0,0,0,.5);
+    margin-bottom: 20px;
+}
+.number strong {
+    display: block;
+    font-size: 40px;
+    font-weight: bold;
+}
+.number em {
+    font-size: 13px;
+    font-weight: italic;
+}
